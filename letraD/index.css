@@ -1,0 +1,65 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  
+
+h1{
+    
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background:linear-gradient(to right,#fcc133,#334efc);
+  -webkit-background-clip: text;
+  background-clip:text;
+  color: transparent;
+  
+
+}
+h4{
+    
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background:linear-gradient(to right,#fcc133,#334efc);
+  -webkit-background-clip: text;
+  background-clip:text;
+  color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  
+  
+}
+
+body{
+    background-image: linear-gradient(to bottom right,white,darkslateblue);
+    width: 90%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+main{
+  display:flex;
+  justify-content: flex-end;
+  
+}
+  button{
+    background-image: linear-gradient(to bottom right,rgba(152, 0, 240, 0.94),rgb(248, 248, 248));
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    
+    
+}
+
+
+button:active{
+box-shadow:  0 2px rgb(94, 76, 103);
+transform: translateY(3px);
+}

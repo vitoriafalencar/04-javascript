@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-family: 'Cinzel', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background:linear-gradient(to right,#fcc133,#334efc);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  
+
+}
+
+h2{
+  font-family: 'Cinzel', serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background:linear-gradient(to right,#ff00fb,#000000);
+  -webkit-background-clip: text;
+  background-clip:text;
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+
+}
+
+
+body{
+    background-image: linear-gradient(to bottom right,white,darkslateblue);
+    width: 90%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+#container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+
+
+  #btn{
+    background-image: linear-gradient(to bottom right,white,darkslateblue);
+    cursor: pointer;
+      width: 20%;
+      height: 20px;
+      display: flex;
+
+    
+
+  }
+  #btn:active{
+    box-shadow:  0 2px rgb(228, 67, 166);
+    transform: translateY(3px);
+  }
+
+
+  #maximo{
+    width: 20%;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction:row;
+
+}
+
+#minimo{
+    width: 20%;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction:row;
+    
+   
+}
+
+
+
+
+#numero-sorteado{
+    font-family: 'Cinzel', serif;
+    background:linear-gradient(to right,#d858f8,#000000);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+    font-size: 20px;
+    width: 30%;
+    height: 20px
+    display:flex;
+    justify-content:flex-end;
+
+}
